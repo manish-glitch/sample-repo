@@ -1,0 +1,18 @@
+for fist time users
+
+git config --global user.name "github username"
+git config --global user.email "github email"
+
+for the fist time
+
+git init --> initialize or set up git in your project
+git add . --> add/mark all your files
+git commit -m "msg" -->to represent your changes
+git remote add origin <ur link> --> to connect your machine to github server
+git push origin master --> upload to github
+
+for rest of the time
+
+git add . --> add/mark all your files
+git commit -m "msg" -->to represent your changes
+git push origin master --> upload to github
