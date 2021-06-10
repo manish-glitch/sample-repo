@@ -1,0 +1,40 @@
+button
+{
+    margin: 150px;
+    background-color: purple;
+    border: 2px solid purple;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+  
+}
+/*micro interaction using psuedo classes*/
+button:hover
+{
+    background-color: blue;
+}
+
+button:focus
+{
+    background-color: green;
+}
+button:disabled{
+    cursor: not-allowed;
+}
+
+body
+{
+    background-color: green;
+}
+/* in bootstrap
+small-0 to 767px
+tablet-768px
+laptop-1020px
+pc-1400px
+*/
+@media  (min-width: 768px){
+    body{
+        background-color: blue;
+    }
+
+}
